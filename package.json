@@ -5,6 +5,7 @@
   "main": "index.html",
   "scripts": {
     "start": "serve",
+    "prettier_watch": "npx onchange '**/*' -- npx prettier --write {{changed}}",
     "build": "echo This is a static template, there is no bundler or bundling involved!"
   },
   "repository": {
