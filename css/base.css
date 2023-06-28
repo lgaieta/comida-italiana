@@ -106,10 +106,6 @@ body {
     line-height: 1;
 }
 
-ol,
-ul {
-    list-style: none;
-}
 
 blockquote,
 q {
@@ -192,10 +188,17 @@ main p {
     line-height: 1.5;
 }
 
+main li {
+    font-size: 1.1rem;
+    line-height: 1.5;
+    list-style-position: inside;
+}
+
+
 h2 {
     font-size: 2rem;
     font-weight: 700;
-    margin-top: 1rem;
+    margin: 1rem 0;
 }
 
 
