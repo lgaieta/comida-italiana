@@ -1,0 +1,22 @@
+table {
+    border-radius: 1rem;
+    border-collapse: collapse;
+    border: 1px solid #bbbbbb;
+    font-size: 1.1rem;
+    line-height: 1.5;
+}
+
+tr {
+    border-top: 1px solid #bbbbbb;
+    border-bottom: 1px solid #bbbbbb;
+}
+
+th {
+    text-align: start;
+    background-color: #e9e9e9;
+    font-weight: 700;
+}
+
+th, td {
+    padding: 1rem;
+}
