@@ -1,18 +1,29 @@
 form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem 1rem;
+    width: 80%;
+    align-self: center;
+    border: 1px solid #d6d6d6;
+    border-radius: 1rem;
+    padding: 2rem;
+    margin-top: 1rem;
+    background-color: #eeeeee;
+}
+
+.question {
     display: flex;
     flex-direction: column;
-    max-width: 400px;
-    border: 1px solid #bbbbbb;
-    border-radius: 1.5rem;
-    padding: 2rem;
+    gap: 1rem;
 }
 
-form h2 {
-    margin: 0 0 1.5rem 0;
+.question label {
+    font-weight: 500;
+    font-size: 1.1rem;
 }
 
-label {
-    margin-bottom: .5rem;
+.question:last-child {
+    grid-column: 2 / 3;
 }
 
 .input-text {
@@ -32,7 +43,6 @@ label {
 
 .input-text:focus {
     border: 1px solid rgb(134, 134, 134);
-    background-color: #fdfdfd
 }
 
 .input-submit {

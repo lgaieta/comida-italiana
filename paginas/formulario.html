@@ -24,14 +24,25 @@
   <main>
     <h1 class="main-title">Danos tu opinión</h1>
     <form>
-      <h2>¿Cuál es tu comida italiana favorita?</h2>
-      <label for="name">Nombre</label>
-      <input type="text" id="name" name="username" class="input-text">
-      <br>
-      <label for="recipe">Comida</label>
-      <input type="text" id="recipe" name="recipe" class="input-text">
-      <br>
-      <input type="submit" class="input-submit" value="Enviar">
+      <div class="question">
+        <label for="name">Nombre:</label>
+        <input type="text" name="username" class="input-text">
+      </div>
+      <div class="question">
+        <label for="recipe">¿Cuál es tu comida favorita?</label>
+        <input type="text" name="favorite-food" class="input-text">
+      </div>
+      <div class="question">
+        <label for="recipe">¿Hay alguna comida que nos sugieras incluir en el portal?</label>
+        <input type="text" name="suggestion" class="input-text">
+      </div>
+      <div class="question">
+        <label for="recipe">Para vos, ¿Cuál es la mejor sección de este portal?</label>
+        <input type="text" name="suggestion" class="input-text">
+      </div>
+      <div class="question">
+        <input type="submit" class="input-submit" value="Enviar">
+      </div>
     </form>
   </main>
 </body>
