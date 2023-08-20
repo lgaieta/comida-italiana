@@ -231,3 +231,21 @@ h3 {
     margin: auto;
     object-fit: cover;
 }
+
+.button {
+    padding: 1rem;
+    font-size: 1rem;
+    border-radius: 1rem;
+    outline: none;
+    border: none;
+    font-weight: 700;
+    background-color: var(--red);
+    color: var(--background);
+    cursor: pointer;
+    font-family: "Inter";
+    transition: background-color .2s ease-in;
+}
+
+.button:hover {
+    background-color: #b61c26;
+}
