@@ -24,23 +24,32 @@
   <main>
     <form class="form">
       <h1 class="form-title">Danos tu opinión</h1>
-      <div class="question">
+      <div class="question input-container">
         <label for="name">Nombre:</label>
         <input type="text" name="username" class="input-text">
       </div>
-      <div class="question">
+      <div class="question input-container">
+        <p>¿Te gustó nuestra página?</p>
+        <div class="answers-radio">
+          <input type="radio" name="likes" class="input-text" id="likes-yes" value="yes">
+          <label for="likes-yes">Sí</label>
+          <input type="radio" name="likes" class="input-text" id="likes-no" value="no">
+          <label for="likes-no">No</label>
+        </div>
+      </div>
+      <div class="question input-container">
         <label for="recipe">¿Cuál es tu comida favorita?</label>
         <input type="text" name="favorite-food" class="input-text">
       </div>
-      <div class="question">
+      <div class="question input-container">
         <label for="recipe">¿Hay alguna comida que nos sugieras incluir en el portal?</label>
         <input type="text" name="suggestion" class="input-text">
       </div>
-      <div class="question">
+      <div class="question input-container">
         <label for="recipe">Para vos, ¿Cuál es la mejor sección de este portal?</label>
         <input type="text" name="suggestion" class="input-text">
       </div>
-      <div class="question">
+      <div class="question button-container">
         <input type="submit" class="button" value="Enviar">
       </div>
     </form>
