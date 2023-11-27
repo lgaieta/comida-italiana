@@ -5,7 +5,7 @@
     --background: #F1F1F1;
     --red: #ce2b37;
     --green: #009246;
-    --max-width: 1000px;
+    --max-width: 950px;
 }
 
 html,
@@ -144,6 +144,7 @@ body {
     background-color: var(--background);
     color: var(--text);
     font-family: 'Inter', sans-serif;
+    text-align: justify;
 }
 
 .header {
@@ -162,14 +163,20 @@ body {
 }
 
 .header-title {
+    display: flex;
+    gap: .5rem;
     text-decoration: none;
     font-weight: 700;
     color: var(--text);
 }
 
+.italian-flag {
+    height: 1rem;
+}
+
 .header-navigation {
     display: flex;
-    gap: .5rem;
+    gap: 1rem;
 }
 
 .header-navigation a {
